@@ -1,0 +1,60 @@
+
+# ========================
+# Node.js & Backend
+# ========================
+node_modules/
+# Keep environment variables out of version control
+dist/
+build/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Prisma / DB
+/generated/prisma
+prisma/migrations/
+prisma/dev.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+*.out
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# ========================
+# React Frontend
+# ========================
+web/node_modules/
+web/dist/
+web/build/
+web/.env.local
+web/.env.*.local
+web/.vite/
+
+# ========================
+# Telegram Bot
+# ========================
+bot/node_modules/
+bot/dist/
+bot/.env
+
+# ========================
+# IDEs / Editors
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# Docker
+# ========================
+docker-compose.override.yml
+*.log
+
