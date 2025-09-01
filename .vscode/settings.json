@@ -1,0 +1,15 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5435,
+      "driver": "PostgreSQL",
+      "name": "bingo_bot",
+      "database": "bingo_bot",
+      "username": "postgres",
+      "password": "password",
+      "connectionTimeout": 30
+    }
+  ]
+}
